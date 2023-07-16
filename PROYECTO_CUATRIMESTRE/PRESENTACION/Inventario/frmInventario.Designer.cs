@@ -80,7 +80,7 @@
             this.cbProductos.Location = new System.Drawing.Point(95, 25);
             this.cbProductos.Name = "cbProductos";
             this.cbProductos.Size = new System.Drawing.Size(178, 21);
-            this.cbProductos.TabIndex = 14;
+            this.cbProductos.TabIndex = 1;
             this.cbProductos.SelectedIndexChanged += new System.EventHandler(this.cbProductos_SelectedIndexChanged);
             // 
             // groupBox1
@@ -100,7 +100,7 @@
             this.groupBox1.Location = new System.Drawing.Point(10, 21);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(279, 277);
-            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
             // btnLimpiar
@@ -111,7 +111,7 @@
             this.btnLimpiar.Location = new System.Drawing.Point(25, 228);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(101, 27);
-            this.btnLimpiar.TabIndex = 24;
+            this.btnLimpiar.TabIndex = 8;
             this.btnLimpiar.Text = "LIMPIAR";
             this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
@@ -124,7 +124,7 @@
             this.btnEditar.Location = new System.Drawing.Point(150, 180);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(101, 27);
-            this.btnEditar.TabIndex = 23;
+            this.btnEditar.TabIndex = 7;
             this.btnEditar.Text = "EDITAR";
             this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
@@ -137,7 +137,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(150, 228);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(101, 27);
-            this.btnEliminar.TabIndex = 22;
+            this.btnEliminar.TabIndex = 9;
             this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -150,7 +150,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(25, 180);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(101, 27);
-            this.btnAgregar.TabIndex = 21;
+            this.btnAgregar.TabIndex = 6;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -160,7 +160,7 @@
             this.txtFecha.Location = new System.Drawing.Point(134, 142);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(100, 20);
-            this.txtFecha.TabIndex = 20;
+            this.txtFecha.TabIndex = 5;
             // 
             // label3
             // 
@@ -177,7 +177,7 @@
             this.txtCantidad.Location = new System.Drawing.Point(134, 109);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(100, 20);
-            this.txtCantidad.TabIndex = 18;
+            this.txtCantidad.TabIndex = 4;
             // 
             // label1
             // 
@@ -195,7 +195,7 @@
             this.rbSalida.Location = new System.Drawing.Point(152, 70);
             this.rbSalida.Name = "rbSalida";
             this.rbSalida.Size = new System.Drawing.Size(63, 17);
-            this.rbSalida.TabIndex = 16;
+            this.rbSalida.TabIndex = 3;
             this.rbSalida.TabStop = true;
             this.rbSalida.Text = "SALIDA";
             this.rbSalida.UseVisualStyleBackColor = true;
@@ -206,7 +206,7 @@
             this.rbEntrada.Location = new System.Drawing.Point(47, 70);
             this.rbEntrada.Name = "rbEntrada";
             this.rbEntrada.Size = new System.Drawing.Size(77, 17);
-            this.rbEntrada.TabIndex = 15;
+            this.rbEntrada.TabIndex = 2;
             this.rbEntrada.TabStop = true;
             this.rbEntrada.Text = "ENTRADA";
             this.rbEntrada.UseVisualStyleBackColor = true;

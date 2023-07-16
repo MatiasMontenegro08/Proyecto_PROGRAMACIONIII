@@ -76,14 +76,14 @@
             this.txtDesc.Location = new System.Drawing.Point(105, 40);
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(229, 20);
-            this.txtDesc.TabIndex = 3;
+            this.txtDesc.TabIndex = 2;
             // 
             // txtCosto
             // 
             this.txtCosto.Location = new System.Drawing.Point(105, 66);
             this.txtCosto.Name = "txtCosto";
             this.txtCosto.Size = new System.Drawing.Size(81, 20);
-            this.txtCosto.TabIndex = 5;
+            this.txtCosto.TabIndex = 3;
             // 
             // label3
             // 
@@ -99,7 +99,7 @@
             this.txtImgUrl.Location = new System.Drawing.Point(105, 92);
             this.txtImgUrl.Name = "txtImgUrl";
             this.txtImgUrl.Size = new System.Drawing.Size(203, 20);
-            this.txtImgUrl.TabIndex = 7;
+            this.txtImgUrl.TabIndex = 4;
             this.txtImgUrl.Leave += new System.EventHandler(this.txtImgUrl_Leave);
             // 
             // label4
@@ -147,7 +147,7 @@
             this.btnImg.Location = new System.Drawing.Point(314, 90);
             this.btnImg.Name = "btnImg";
             this.btnImg.Size = new System.Drawing.Size(29, 23);
-            this.btnImg.TabIndex = 13;
+            this.btnImg.TabIndex = 5;
             this.btnImg.Text = "+";
             this.btnImg.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnImg.UseVisualStyleBackColor = true;

@@ -85,7 +85,7 @@
             this.txtDetalle.Location = new System.Drawing.Point(28, 47);
             this.txtDetalle.Name = "txtDetalle";
             this.txtDetalle.Size = new System.Drawing.Size(295, 20);
-            this.txtDetalle.TabIndex = 2;
+            this.txtDetalle.TabIndex = 0;
             this.txtDetalle.TextChanged += new System.EventHandler(this.txtDetalle_TextChanged);
             // 
             // lblValiDetalle
@@ -103,7 +103,7 @@
             this.txtFecha.Location = new System.Drawing.Point(28, 99);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(120, 20);
-            this.txtFecha.TabIndex = 4;
+            this.txtFecha.TabIndex = 1;
             this.txtFecha.TextChanged += new System.EventHandler(this.txtFecha_TextChanged);
             // 
             // lblValiFecha
@@ -144,7 +144,7 @@
             this.txtValor.Location = new System.Drawing.Point(15, 54);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(190, 20);
-            this.txtValor.TabIndex = 7;
+            this.txtValor.TabIndex = 2;
             this.txtValor.TextChanged += new System.EventHandler(this.txtValor_TextChanged);
             // 
             // rbEgreso
@@ -177,7 +177,7 @@
             this.btnLimpiar.Location = new System.Drawing.Point(28, 284);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(101, 27);
-            this.btnLimpiar.TabIndex = 28;
+            this.btnLimpiar.TabIndex = 4;
             this.btnLimpiar.Text = "LIMPIAR";
             this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
@@ -190,7 +190,7 @@
             this.btnEditar.Location = new System.Drawing.Point(143, 251);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(101, 27);
-            this.btnEditar.TabIndex = 27;
+            this.btnEditar.TabIndex = 3;
             this.btnEditar.Text = "EDITAR";
             this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
@@ -203,7 +203,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(143, 284);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(101, 27);
-            this.btnEliminar.TabIndex = 26;
+            this.btnEliminar.TabIndex = 5;
             this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -216,7 +216,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(28, 251);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(101, 27);
-            this.btnAgregar.TabIndex = 25;
+            this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -231,7 +231,7 @@
             this.dgvLibro.Name = "dgvLibro";
             this.dgvLibro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvLibro.Size = new System.Drawing.Size(435, 430);
-            this.dgvLibro.TabIndex = 29;
+            this.dgvLibro.TabIndex = 6;
             // 
             // gbFiltro
             // 
@@ -264,7 +264,7 @@
             this.txtFiltroRapido.Location = new System.Drawing.Point(16, 25);
             this.txtFiltroRapido.Name = "txtFiltroRapido";
             this.txtFiltroRapido.Size = new System.Drawing.Size(262, 20);
-            this.txtFiltroRapido.TabIndex = 29;
+            this.txtFiltroRapido.TabIndex = 0;
             this.txtFiltroRapido.TextChanged += new System.EventHandler(this.txtFiltroRapido_TextChanged);
             // 
             // txtHasta
@@ -272,14 +272,14 @@
             this.txtHasta.Location = new System.Drawing.Point(158, 100);
             this.txtHasta.Name = "txtHasta";
             this.txtHasta.Size = new System.Drawing.Size(120, 20);
-            this.txtHasta.TabIndex = 28;
+            this.txtHasta.TabIndex = 2;
             // 
             // txtDesde
             // 
             this.txtDesde.Location = new System.Drawing.Point(16, 100);
             this.txtDesde.Name = "txtDesde";
             this.txtDesde.Size = new System.Drawing.Size(120, 20);
-            this.txtDesde.TabIndex = 27;
+            this.txtDesde.TabIndex = 1;
             // 
             // btnBuscar
             // 
@@ -289,7 +289,7 @@
             this.btnBuscar.Location = new System.Drawing.Point(16, 126);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(262, 27);
-            this.btnBuscar.TabIndex = 26;
+            this.btnBuscar.TabIndex = 3;
             this.btnBuscar.Text = "BUSCAR";
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -326,7 +326,7 @@
             // 
             this.lblTotall.AutoSize = true;
             this.lblTotall.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotall.Location = new System.Drawing.Point(561, 455);
+            this.lblTotall.Location = new System.Drawing.Point(526, 455);
             this.lblTotall.Name = "lblTotall";
             this.lblTotall.Size = new System.Drawing.Size(92, 25);
             this.lblTotall.TabIndex = 32;
@@ -336,7 +336,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(677, 455);
+            this.lblResultado.Location = new System.Drawing.Point(642, 455);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 25);
             this.lblResultado.TabIndex = 33;

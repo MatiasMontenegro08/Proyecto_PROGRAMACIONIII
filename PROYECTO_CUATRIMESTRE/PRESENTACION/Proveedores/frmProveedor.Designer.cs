@@ -61,7 +61,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(406, 155);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(93, 38);
-            this.btnEliminar.TabIndex = 13;
+            this.btnEliminar.TabIndex = 8;
             this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -74,7 +74,7 @@
             this.btnEditar.Location = new System.Drawing.Point(406, 66);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(93, 38);
-            this.btnEditar.TabIndex = 12;
+            this.btnEditar.TabIndex = 6;
             this.btnEditar.Text = "EDITAR";
             this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
@@ -87,7 +87,7 @@
             this.btnNuevo.Location = new System.Drawing.Point(406, 22);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(93, 38);
-            this.btnNuevo.TabIndex = 11;
+            this.btnNuevo.TabIndex = 5;
             this.btnNuevo.Text = "AGREGAR";
             this.btnNuevo.UseVisualStyleBackColor = false;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
@@ -109,6 +109,7 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(369, 20);
             this.txtBuscar.TabIndex = 9;
+            this.txtBuscar.Visible = false;
             // 
             // label1
             // 
@@ -119,6 +120,7 @@
             this.label1.Size = new System.Drawing.Size(72, 21);
             this.label1.TabIndex = 8;
             this.label1.Text = "BUSCAR:";
+            this.label1.Visible = false;
             // 
             // groupBox1
             // 
@@ -135,7 +137,7 @@
             this.groupBox1.Location = new System.Drawing.Point(16, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(373, 185);
-            this.groupBox1.TabIndex = 14;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PROVEEDOR";
             // 
@@ -144,7 +146,7 @@
             this.txtPagWeb.Location = new System.Drawing.Point(115, 136);
             this.txtPagWeb.Name = "txtPagWeb";
             this.txtPagWeb.Size = new System.Drawing.Size(243, 20);
-            this.txtPagWeb.TabIndex = 33;
+            this.txtPagWeb.TabIndex = 4;
             // 
             // label6
             // 
@@ -161,7 +163,7 @@
             this.txtCorreo.Location = new System.Drawing.Point(115, 110);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(243, 20);
-            this.txtCorreo.TabIndex = 29;
+            this.txtCorreo.TabIndex = 3;
             // 
             // label5
             // 
@@ -178,7 +180,7 @@
             this.txtTel.Location = new System.Drawing.Point(115, 84);
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(243, 20);
-            this.txtTel.TabIndex = 27;
+            this.txtTel.TabIndex = 2;
             // 
             // label4
             // 
@@ -195,7 +197,7 @@
             this.txtDirec.Location = new System.Drawing.Point(115, 58);
             this.txtDirec.Name = "txtDirec";
             this.txtDirec.Size = new System.Drawing.Size(243, 20);
-            this.txtDirec.TabIndex = 25;
+            this.txtDirec.TabIndex = 1;
             // 
             // label3
             // 
@@ -212,7 +214,7 @@
             this.txtNombre.Location = new System.Drawing.Point(115, 32);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(243, 20);
-            this.txtNombre.TabIndex = 23;
+            this.txtNombre.TabIndex = 0;
             // 
             // label2
             // 
@@ -232,7 +234,7 @@
             this.btnLimpiar.Location = new System.Drawing.Point(406, 110);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(93, 38);
-            this.btnLimpiar.TabIndex = 15;
+            this.btnLimpiar.TabIndex = 7;
             this.btnLimpiar.Text = "LIMPIAR";
             this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
