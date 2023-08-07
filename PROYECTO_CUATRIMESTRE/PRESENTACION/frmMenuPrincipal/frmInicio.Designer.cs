@@ -176,7 +176,7 @@
             this.btnStock.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnStock.FlatAppearance.BorderSize = 0;
             this.btnStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStock.Image = global::PRESENTACION.Properties.Resources._10;
+            this.btnStock.Image = global::SublimarteApp.Properties.Resources._10;
             this.btnStock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnStock.Location = new System.Drawing.Point(0, 130);
             this.btnStock.Name = "btnStock";

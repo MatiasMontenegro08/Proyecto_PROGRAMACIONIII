@@ -14,7 +14,6 @@ namespace PRESENTACION
 {
     public partial class frmPedido : Form
     {
-        List<Pedido> listaPedido;
         Pedido registro;
         public frmPedido()
         {

@@ -15,7 +15,6 @@ namespace PRESENTACION
     public partial class frmVenta : Form
     {
         Venta registro;
-        List<Venta> lista;
         public frmVenta()
         {
             InitializeComponent();
